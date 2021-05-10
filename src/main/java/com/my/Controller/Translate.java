@@ -84,6 +84,7 @@ public class Translate {
         ObjectMapper mapper = new ObjectMapper();
         String result=translateInterface.TCTOCN(orgin);
         map.put("result",result);
+        map.put("message","成功");
         map.put("stat","0");
 
         try {
